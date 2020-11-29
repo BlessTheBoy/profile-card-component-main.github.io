@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg"), hsl(185, 75%, 39%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left -50%, right bottom;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(227, 10%, 46%);
+}
+#main-container {
+  background-color: white;
+  border-radius: 0.7rem;
+  width: 80%;
+  max-width: 300px;
+  overflow: hidden;
+}
+.top-container {
+  height: 120px;
+  background-image: url("images/bg-pattern-card.svg");
+  background-size: cover;
+}
+.bottom-container {
+  text-align: center;
+}
+.image-container {
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: fit-content;
+  overflow: hidden;
+  background-color: white;
+  padding: 3px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container > img {
+  border-radius: 50%;
+}
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+strong {
+  color: hsl(229, 23%, 23%);
+}
+.text-div {
+  margin-top: -25px;
+}
+.text-div strong {
+  margin-right: 7px;
+}
+.text-div div {
+  font-size: 1.1rem;
+}
+.text-div p {
+  margin: 0.8rem auto 1.6rem;
+  font-size: 0.8rem;
+}
+.bottom-container hr {
+  border: 0;
+  border-top: 1px solid #e1e1e1;
+}
+.list-container {
+  padding: 2rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+li strong {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+li p {
+  font-size: 0.75rem;
+  margin-top: 0.3rem;
+}
